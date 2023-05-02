@@ -1,0 +1,30 @@
+{
+  "name": "ml-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zellsito/ml-scrapper.git"
+  },
+  "keywords": [
+    "facebook",
+    "marketplace",
+    "scrapper"
+  ],
+  "author": "zellsito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zellsito/ml-scrapper/issues"
+  },
+  "homepage": "https://github.com/zellsito/ml-scrapper#readme",
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "puppeteer": "^19.11.1"
+  }
+}
